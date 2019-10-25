@@ -53,9 +53,7 @@ export default function Login({ history }) {
             required
           />
 
-          <Button type="submit" variant="contained" color="primary">
-            Entrar
-          </Button>
+          <button className="btn" type="submit">Entrar</button>
         </form>
       </div>
     </Container>
